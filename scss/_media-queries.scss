@@ -1,0 +1,245 @@
+// 1200 and up
+//
+// 992 and up
+//
+// 768 and up
+
+
+@media only screen and (max-width: 1200px) {
+
+
+  .blognail {
+
+    height: 600px;
+
+  }
+
+  .blognail .image{
+
+    height: 400px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+.cred-img {
+
+  width: 110px;
+}
+
+
+.blog-main {
+  padding: 100px 80px;
+}
+
+.vid {
+
+  width: 500px;
+  height: 320px;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .blog-main {
+    padding: 100px 50px;
+  }
+
+
+  .vid {
+
+    width: 360px;
+    height: 200px;
+  }
+
+.logo {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hero {
+
+    height: 550px;
+    padding-top: 150px;
+}
+
+
+
+
+h1 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.sub-title {
+  padding: 6px 0 10px 0;
+  margin: 0 0 0 0;
+  font-weight: 400;
+}
+
+
+     .horizontal-mailchimp .mc-field-group,
+     .horizontal-mailchimp .clear,
+     .horizontal-mailchimp input {
+       display:inline-block;
+     }
+
+     .horizontal-mailchimp .mc-field-group {
+          margin-bottom: 5px;
+     }
+
+
+#mc_embed_signup .mc-field-group {
+    clear: none !important;
+    width: auto !important;
+}
+
+
+.padded-lg {
+  font-size: 14px;
+}
+
+.NAME, .EMAIL {
+    min-width: 200px;
+    min-height: 34px;
+    margin: 0 5px ;
+    padding: 0px 5px;
+}
+
+
+.blognail {
+
+  height: 480px;
+
+}
+
+.blognail .image{
+
+  height: 320px;
+
+}
+
+.prodnail {
+
+  height: 480px;
+
+}
+
+.prodnail .image{
+
+  height: 320px;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .blog-main {
+    padding: 100px 20px;
+  }
+
+
+
+    .vid {
+
+      width: 280px;
+      height: 160px;
+    }
+
+
+nav {
+
+  display: none;
+}
+  #hero {
+    padding-top: 100px;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .horizontal-mailchimp .mc-field-group,
+  .horizontal-mailchimp .clear {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+
+  }
+  .clear {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+
+  .cred-img {
+
+    width: 80px;
+  }
+.cred {
+
+    padding: 8px;
+}
+
+.NAME, .EMAIL {
+    min-width: 170px;
+    min-height: 34px;
+    margin: 0 5px ;
+    padding: 0px 5px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+  #hero {
+    padding-top: 70px;
+    height: 400px;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+
+    h3 {
+    font-size: 1em;
+  }
+
+  .btn-lg {
+    height: 40px;
+    width:105px;
+    padding: 6px;
+  }
+
+  .cred-img {
+
+    width: 70px;
+  }
+
+
+
+}

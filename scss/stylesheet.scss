@@ -1,0 +1,252 @@
+@import "normalise";
+@import "colors";
+@import "typography";
+
+header {
+    height: 60px;
+    width: 100%;
+    padding: 7px;
+    border-bottom: 4px $brand solid;
+    position: fixed;
+    z-index: 22;
+    background-color: white;
+}
+
+.inner-header {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+
+}
+
+.logo {
+  width: 160px;
+}
+
+nav {
+    float: right;
+
+    ul {
+        padding: 12px 0;
+
+        li {
+            display: inline;
+            padding: 8px;
+        }
+    }
+}
+
+#hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/hero-img.jpeg') center center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    padding-top: 220px;
+}
+
+.hero-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.signup {
+    background-color: $brand;
+    height: 90px;
+    width: 100%;
+
+  padding: 10px;
+
+
+}
+
+
+.btn-md {
+  height: 34px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.about {
+
+  background-color: #ffffff;
+    padding: 60px 0 0 0;
+}
+
+
+.cred {
+  background-color: #ddd;
+
+  padding: 12px;
+
+
+}
+
+
+
+
+.padded {
+  padding-top: 10px;
+}
+
+
+.padded-lg {
+  padding-top: 100px;
+  color: #555;
+}
+
+
+#blogs {
+
+    padding-bottom: 60px;
+  h2 { padding: 30px 0; }
+  h3 { color: $brand;}
+}
+
+.products {
+  padding-bottom: 60px;
+  h2 { padding: 30px 0; }
+  h3 { color: $brand;}
+}
+
+.image{
+    position:relative;
+    overflow:hidden;
+    height: 260px;
+}
+.image img{
+    position:absolute;
+    min-height: 260px;
+    width: 100%;
+}
+
+
+
+.thumbnail {
+
+  height: 450px;
+  border-bottom: $brand 8px solid;
+  border-radius: 0;
+  padding: 0;
+  h3 {
+    padding: 0 10px;
+  }
+}
+
+.blognail {
+
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.prodnail {
+
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.dark {
+  background-color: #f2f2f2;
+}
+
+// .row {
+//
+//   ul {
+//     li {
+//       display: inline-block;
+//       padding: 20px;
+//     }
+//   }
+// }
+
+
+footer {
+  min-height: 200px;
+  background-color: $footer;
+  padding: 16px 0;
+  color: #bbb;
+}
+
+.horizontal-mailchimp .mc-field-group,
+.horizontal-mailchimp .clear {
+     display: inline-block;
+     max-height: 80px;
+     max-width: 1150px;
+}
+
+.horizontal-mailchimp label {
+     display: none;
+     height: 1px;
+     text-indent: -9999px;
+      height: 90px;
+}
+
+
+
+.horizontal-mailchimp {
+     background: $brand;
+     margin: 0px auto;
+     padding: 1px 20px 10px;
+     text-align: center;
+     border-top: 4px rgba(white, .5 ) solid;
+
+     border-bottom: 4px rgba(white, .5 ) solid;
+
+}
+
+
+.sub-title {
+  padding: 6px 0 0 0;
+  margin: 0 0 0 0;
+  font-weight: 400;
+}
+
+.NAME, .EMAIL {
+    min-width: 300px;
+    min-height: 34px;
+    margin: 0 5px ;
+    padding: 0px 5px;
+}
+
+
+.blog-main {
+  padding: 100px 140px;
+}
+
+
+.vid {
+
+  width: 640px;
+  height: 400px;
+}
+
+.blog-title {
+
+  color: #333;
+  font-size: 1.8em;
+}
+
+.player {
+  max-width:600px;
+  margin: 0 auto;
+  background-color: #eee;
+  p { padding: 5px; }
+  img {
+    width:100%;
+  }
+}
+
+audio { width: 100%;
+padding-bottom: 0;
+margin-bottom: 0;}
+
+
+
+@import "media-queries";

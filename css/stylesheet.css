@@ -1,0 +1,422 @@
+/*  ---- COLORS ---- */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #568fbb;
+  text-decoration: none;
+}
+
+.active {
+  color: #568fbb;
+}
+
+h1 {
+  font-size: 3.3em;
+  color: white;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 1.6em;
+  a-font-size: 3em;
+  a-color: #6f6f6f;
+  a-font-weight: 400;
+}
+
+h4 a:hover {
+  color: #568fbb;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.75em;
+  font-size: 18px;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  padding: 7px;
+  border-bottom: 4px #568fbb solid;
+  position: fixed;
+  z-index: 22;
+  background-color: white;
+}
+
+.inner-header {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.logo {
+  width: 160px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  padding: 12px 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 8px;
+}
+
+#hero {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpeg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpeg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  padding-top: 220px;
+}
+
+.hero-content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.signup {
+  background-color: #568fbb;
+  height: 90px;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-md {
+  height: 34px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 60px 0 0 0;
+}
+
+.cred {
+  background-color: #ddd;
+  padding: 12px;
+}
+
+.padded {
+  padding-top: 10px;
+}
+
+.padded-lg {
+  padding-top: 100px;
+  color: #555;
+}
+
+#blogs {
+  padding-bottom: 60px;
+}
+
+#blogs h2 {
+  padding: 30px 0;
+}
+
+#blogs h3 {
+  color: #568fbb;
+}
+
+.products {
+  padding-bottom: 60px;
+}
+
+.products h2 {
+  padding: 30px 0;
+}
+
+.products h3 {
+  color: #568fbb;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  height: 260px;
+}
+
+.image img {
+  position: absolute;
+  min-height: 260px;
+  width: 100%;
+}
+
+.thumbnail {
+  height: 450px;
+  border-bottom: #568fbb 8px solid;
+  border-radius: 0;
+  padding: 0;
+}
+
+.thumbnail h3 {
+  padding: 0 10px;
+}
+
+.blognail {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prodnail {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dark {
+  background-color: #f2f2f2;
+}
+
+footer {
+  min-height: 200px;
+  background-color: #282828;
+  padding: 16px 0;
+  color: #bbb;
+}
+
+.horizontal-mailchimp .mc-field-group,
+.horizontal-mailchimp .clear {
+  display: inline-block;
+  max-height: 80px;
+  max-width: 1150px;
+}
+
+.horizontal-mailchimp label {
+  display: none;
+  height: 1px;
+  text-indent: -9999px;
+  height: 90px;
+}
+
+.horizontal-mailchimp {
+  background: #568fbb;
+  margin: 0px auto;
+  padding: 1px 20px 10px;
+  text-align: center;
+  border-top: 4px rgba(255, 255, 255, 0.5) solid;
+  border-bottom: 4px rgba(255, 255, 255, 0.5) solid;
+}
+
+.sub-title {
+  padding: 6px 0 0 0;
+  margin: 0 0 0 0;
+  font-weight: 400;
+}
+
+.NAME, .EMAIL {
+  min-width: 300px;
+  min-height: 34px;
+  margin: 0 5px;
+  padding: 0px 5px;
+}
+
+.blog-main {
+  padding: 100px 140px;
+}
+
+.vid {
+  width: 640px;
+  height: 400px;
+}
+
+.blog-title {
+  color: #333;
+  font-size: 1.8em;
+}
+
+.player {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.player p {
+  padding: 5px;
+}
+
+.player img {
+  width: 100%;
+}
+
+audio {
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .blognail {
+    height: 600px;
+  }
+  .blognail .image {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .cred-img {
+    width: 110px;
+  }
+  .blog-main {
+    padding: 100px 80px;
+  }
+  .vid {
+    width: 500px;
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-main {
+    padding: 100px 50px;
+  }
+  .vid {
+    width: 360px;
+    height: 200px;
+  }
+  .logo {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hero {
+    height: 550px;
+    padding-top: 150px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  .sub-title {
+    padding: 6px 0 10px 0;
+    margin: 0 0 0 0;
+    font-weight: 400;
+  }
+  .horizontal-mailchimp .mc-field-group,
+  .horizontal-mailchimp .clear,
+  .horizontal-mailchimp input {
+    display: inline-block;
+  }
+  .horizontal-mailchimp .mc-field-group {
+    margin-bottom: 5px;
+  }
+  #mc_embed_signup .mc-field-group {
+    clear: none !important;
+    width: auto !important;
+  }
+  .padded-lg {
+    font-size: 14px;
+  }
+  .NAME, .EMAIL {
+    min-width: 200px;
+    min-height: 34px;
+    margin: 0 5px;
+    padding: 0px 5px;
+  }
+  .blognail {
+    height: 480px;
+  }
+  .blognail .image {
+    height: 320px;
+  }
+  .prodnail {
+    height: 480px;
+  }
+  .prodnail .image {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .blog-main {
+    padding: 100px 20px;
+  }
+  .vid {
+    width: 280px;
+    height: 160px;
+  }
+  nav {
+    display: none;
+  }
+  #hero {
+    padding-top: 100px;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .horizontal-mailchimp .mc-field-group,
+  .horizontal-mailchimp .clear {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .clear {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  .cred-img {
+    width: 80px;
+  }
+  .cred {
+    padding: 8px;
+  }
+  .NAME, .EMAIL {
+    min-width: 170px;
+    min-height: 34px;
+    margin: 0 5px;
+    padding: 0px 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #hero {
+    padding-top: 70px;
+    height: 400px;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .btn-lg {
+    height: 40px;
+    width: 105px;
+    padding: 6px;
+  }
+  .cred-img {
+    width: 70px;
+  }
+}
