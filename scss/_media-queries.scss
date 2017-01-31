@@ -3,243 +3,262 @@
 // 992 and up
 //
 // 768 and up
-
-
 @media only screen and (max-width: 1200px) {
+    .blognail {
+        height: 600px;
+    }
 
+    .blognail .image {
+        height: 400px;
+    }
 
-  .blognail {
+    .about-caption {
+      padding: 15px 30px 5px;
 
-    height: 600px;
+     p { font-size: 1.7rem;}
 
-  }
-
-  .blognail .image{
-
-    height: 400px;
-
-  }
+     h2 {border-bottom-width: 4px;
+     border-bottom-style: solid;
+     border-color: $brand;}
+    }
 
 }
-
-
 @media only screen and (max-width: 992px) {
+    .cred-img {
+        width: 110px;
+    }
 
-.cred-img {
+    .blog-main {
+        padding: 100px 80px;
+    }
 
-  width: 110px;
+    .vid {
+        width: 500px;
+        height: 320px;
+    }
+
+    .hero-pages {
+        max-width: 1300px;
+        padding: 40px 20px 25px;
+    }
 }
-
-
-.blog-main {
-  padding: 100px 80px;
-}
-
-.vid {
-
-  width: 500px;
-  height: 320px;
-}
-
-
-}
-
-
-
 
 
 @media only screen and (max-width: 768px) {
+    .blog-main {
+        padding: 100px 50px;
+    }
+
+    .vid {
+        width: 360px;
+        height: 200px;
+    }
+
+    .logo {
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hero {
+        padding: 150px 20px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .sub-title {
+        padding: 6px 0 18px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .horizontal-mailchimp .clear,
+    .horizontal-mailchimp .mc-field-group,
+    .horizontal-mailchimp input {
+        display: inline-block;
+    }
+
+    .horizontal-mailchimp .mc-field-group {
+        margin-bottom: 5px;
+    }
+
+    #mc_embed_signup .mc-field-group {
+        clear: none !important;
+        width: auto !important;
+    }
+
+    .padded-lg {
+        font-size: 14px;
+    }
+
+    .EMAIL,
+    .NAME {
+        min-width: 200px;
+        min-height: 34px;
+        margin: 0 5px;
+        padding: 0 5px;
+    }
 
 
+    .about-container {
+      height: auto;
+      padding-top: 20px;
 
-  .blog-main {
-    padding: 100px 50px;
-  }
+      background-color: rgba(99, 99, 99, 1.0);
+    }
 
+    .tonje-img{
 
-  .vid {
+      background: url('/images/tonje3.jpg') center top no-repeat;
+      background-size: contain;
+      height: 350px;
+      padding: 0;
 
-    width: 360px;
-    height: 200px;
-  }
-
-.logo {
-  width: 160px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#hero {
-
-    height: 550px;
-    padding-top: 150px;
-}
+    }
 
 
+    .blog-main {
+        padding-top: 30px;
+    }
+
+    .blognail {
+        height: 480px;
+    }
+
+    .blognail .image {
+        height: 320px;
+    }
+
+    .prodnail {
+        height: auto;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+    .prod-visible {
+      display: none;
+    }
+
+    .prod-hidden {
+      display: block;
+    }
 
 
-h1 {
-  font-size: 1.8em;
-}
-
-h3 {
-  font-size: 1.2em;
-}
-
-.sub-title {
-  padding: 6px 0 10px 0;
-  margin: 0 0 0 0;
-  font-weight: 400;
-}
-
-
-     .horizontal-mailchimp .mc-field-group,
-     .horizontal-mailchimp .clear,
-     .horizontal-mailchimp input {
-       display:inline-block;
-     }
-
-     .horizontal-mailchimp .mc-field-group {
-          margin-bottom: 5px;
-     }
-
-
-#mc_embed_signup .mc-field-group {
-    clear: none !important;
-    width: auto !important;
-}
-
-
-.padded-lg {
-  font-size: 14px;
-}
-
-.NAME, .EMAIL {
-    min-width: 200px;
-    min-height: 34px;
-    margin: 0 5px ;
-    padding: 0px 5px;
-}
-
-
-.blognail {
-
-  height: 480px;
-
-}
-
-.blognail .image{
-
-  height: 320px;
-
-}
-
-.prodnail {
-
-  height: 480px;
-
-}
-
-.prodnail .image{
-
-  height: 320px;
-
-}
-
-
+    .master-title {
+        font-size: 3.2em;
+    }
 }
 
 
 @media only screen and (max-width: 500px) {
-
-  .blog-main {
-    padding: 100px 20px;
-  }
-
-
+    .blog-main {
+        padding: 30px;
+    }
 
     .vid {
+        width: 280px;
+        height: 160px;
+    }
 
-      width: 280px;
-      height: 160px;
+    nav {
+        display: none;
     }
 
 
-nav {
+    h1 {
+        padding: 0;
+        margin: 0;
+    }
 
-  display: none;
+    #hero {
+        padding-top: 100px;
+
+        h1 {
+            padding: 40px 20px;
+            margin: 0;
+        }
+        p { font-size: 1.1em;}
+    }
+    .horizontal-mailchimp .clear,
+    .horizontal-mailchimp .mc-field-group {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clear {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+
+    .cred-img {
+        width: 80px;
+    }
+
+    .cred {
+        padding: 8px;
+    }
+
+    .EMAIL,
+    .NAME {
+        min-width: 300px;
+        min-height: 34px;
+        margin: 0 5px;
+        padding: 0 5px;
+    }
+
+    .master-title {
+        font-size: 2.7em;
+    }
+
+    .products, #blogs, .container-fluid {
+      padding: 0;
+      margin: 0;
+    }
 }
-  #hero {
-    padding-top: 100px;
-  }
-  h1 {
-    padding: 0;
-    margin: 0;
-  }
-  .horizontal-mailchimp .mc-field-group,
-  .horizontal-mailchimp .clear {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-
-
-  }
-  .clear {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-  }
-
-  .cred-img {
-
-    width: 80px;
-  }
-.cred {
-
-    padding: 8px;
-}
-
-.NAME, .EMAIL {
-    min-width: 170px;
-    min-height: 34px;
-    margin: 0 5px ;
-    padding: 0px 5px;
-}
-
-
-
-
-
-
-}
-
-
-
 @media only screen and (max-width: 400px) {
+    #hero {
+        padding: 70px 20px;
+    }
 
-  #hero {
-    padding-top: 70px;
-    height: 400px;
-  }
-  h1 {
-    font-size: 1.4em;
-  }
+    h1 {
+        font-size: 1.4em;
+    }
 
     h3 {
-    font-size: 1em;
-  }
+        font-size: 1em;
+    }
 
-  .btn-lg {
-    height: 40px;
-    width:105px;
-    padding: 6px;
-  }
+    .btn-lg {
+        height: 40px;
+        width: 105px;
+        padding: 6px;
+    }
 
-  .cred-img {
+    .cred-img {
+        width: 70px;
+    }
 
-    width: 70px;
-  }
+    .master-title {
+        font-size: 2.2em;
+    }
 
+    .blog-main {
+        padding: 20px;
+    }
 
-
+    .EMAIL,
+    .NAME {
+        min-width: 220px;
+        min-height: 34px;
+        margin: 0 5px;
+        padding: 0 5px;
+    }
 }

@@ -1,4 +1,10 @@
 /*  ---- COLORS ---- */
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -20,6 +26,7 @@ a:hover {
 h1 {
   font-size: 3.3em;
   color: white;
+  margin-bottom: 42px;
 }
 
 h2 {
@@ -27,7 +34,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: white;
   font-weight: 200;
 }
@@ -45,8 +52,23 @@ h4 a:hover {
 }
 
 p {
-  line-height: 1.75em;
+  color: white;
+  font-weight: 400;
+  line-height: 1.3em;
   font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.black {
+  color: #222;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.container-fluid {
+  background-color: #eee;
 }
 
 header {
@@ -84,12 +106,12 @@ nav ul li {
 }
 
 #hero {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpeg") center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpeg") center center;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-img.jpg") center center;
   background-size: cover;
   width: 100%;
-  height: 700px;
-  padding-top: 220px;
+  height: auto;
+  padding: 160px 20px;
 }
 
 .hero-content {
@@ -100,11 +122,52 @@ nav ul li {
   padding: 20px;
 }
 
+.hero-pages {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 1300px;
+  padding: 40px 120px 25px;
+}
+
+.btn-float {
+  z-index: 100;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  background: url("../images/float-call.svg") no-repeat;
+  background-size: 25px 25px;
+  background-position: 23px 16px;
+}
+
+.book {
+  position: relative;
+  width: 130px;
+  height: 158px;
+  top: 515px;
+  background: url("../images/book.png") no-repeat;
+  background-size: contain;
+  z-index: 100;
+}
+
 .signup {
   background-color: #568fbb;
-  height: 90px;
+  height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 0;
+}
+
+.sub-title {
+  padding-top: 4px;
+  margin: 0;
+  font-weight: 400;
+}
+
+form {
+  margin-top: -12px;
+  margin-bottom: -10px;
 }
 
 .btn-md {
@@ -113,9 +176,36 @@ nav ul li {
   font-weight: 600;
 }
 
-.about {
-  background-color: #ffffff;
-  padding: 60px 0 0 0;
+.about-container {
+  height: auto;
+  background-color: #636363;
+}
+
+.tonje-img {
+  background: url("/images/tonje3.jpg") center top no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 0;
+}
+
+.about-caption {
+  height: auto;
+  max-width: 600px;
+  background-color: #636363;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 20px 40px;
+}
+
+.about-caption p, .about-caption h2 {
+  color: white;
+}
+
+.about-caption h2 {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-color: #568fbb;
 }
 
 .cred {
@@ -144,8 +234,12 @@ nav ul li {
   color: #568fbb;
 }
 
+.prod-hidden {
+  display: none;
+}
+
 .products {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .products h2 {
@@ -187,12 +281,35 @@ nav ul li {
 
 .prodnail {
   max-width: 600px;
+  min-height: 570px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.product {
+  height: 600px;
+}
+
 .dark {
   background-color: #f2f2f2;
+}
+
+.master-title {
+  font-size: 60px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-color: #568fbb;
+}
+
+#shrink {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/prod-img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/prod-img.jpg");
+  background-position: center top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
 }
 
 footer {
@@ -211,24 +328,18 @@ footer {
 
 .horizontal-mailchimp label {
   display: none;
-  height: 1px;
+  height: 0px;
   text-indent: -9999px;
-  height: 90px;
+  height: 20px;
 }
 
 .horizontal-mailchimp {
   background: #568fbb;
   margin: 0px auto;
-  padding: 1px 20px 10px;
+  padding: 1px 20px 6px;
   text-align: center;
-  border-top: 4px rgba(255, 255, 255, 0.5) solid;
-  border-bottom: 4px rgba(255, 255, 255, 0.5) solid;
-}
-
-.sub-title {
-  padding: 6px 0 0 0;
-  margin: 0 0 0 0;
-  font-weight: 400;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+  border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
 }
 
 .NAME, .EMAIL {
@@ -239,7 +350,11 @@ footer {
 }
 
 .blog-main {
-  padding: 100px 140px;
+  padding: 60px 200px;
+}
+
+.blog-main p {
+  color: #222;
 }
 
 .vid {
@@ -279,6 +394,17 @@ audio {
   .blognail .image {
     height: 400px;
   }
+  .about-caption {
+    padding: 15px 30px 5px;
+  }
+  .about-caption p {
+    font-size: 1.7rem;
+  }
+  .about-caption h2 {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-color: #568fbb;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -291,6 +417,10 @@ audio {
   .vid {
     width: 500px;
     height: 320px;
+  }
+  .hero-pages {
+    max-width: 1300px;
+    padding: 40px 20px 25px;
   }
 }
 
@@ -308,22 +438,21 @@ audio {
     margin-right: auto;
   }
   #hero {
-    height: 550px;
-    padding-top: 150px;
+    padding: 150px 20px;
   }
   h1 {
-    font-size: 1.8em;
+    font-size: 2.2em;
   }
   h3 {
     font-size: 1.2em;
   }
   .sub-title {
-    padding: 6px 0 10px 0;
-    margin: 0 0 0 0;
+    padding: 6px 0 18px;
+    margin: 0;
     font-weight: 400;
   }
-  .horizontal-mailchimp .mc-field-group,
   .horizontal-mailchimp .clear,
+  .horizontal-mailchimp .mc-field-group,
   .horizontal-mailchimp input {
     display: inline-block;
   }
@@ -337,11 +466,26 @@ audio {
   .padded-lg {
     font-size: 14px;
   }
-  .NAME, .EMAIL {
+  .EMAIL,
+  .NAME {
     min-width: 200px;
     min-height: 34px;
     margin: 0 5px;
-    padding: 0px 5px;
+    padding: 0 5px;
+  }
+  .about-container {
+    height: auto;
+    padding-top: 20px;
+    background-color: #636363;
+  }
+  .tonje-img {
+    background: url("/images/tonje3.jpg") center top no-repeat;
+    background-size: contain;
+    height: 350px;
+    padding: 0;
+  }
+  .blog-main {
+    padding-top: 30px;
   }
   .blognail {
     height: 480px;
@@ -350,16 +494,24 @@ audio {
     height: 320px;
   }
   .prodnail {
-    height: 480px;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
   }
-  .prodnail .image {
-    height: 320px;
+  .prod-visible {
+    display: none;
+  }
+  .prod-hidden {
+    display: block;
+  }
+  .master-title {
+    font-size: 3.2em;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .blog-main {
-    padding: 100px 20px;
+    padding: 30px;
   }
   .vid {
     width: 280px;
@@ -368,15 +520,22 @@ audio {
   nav {
     display: none;
   }
-  #hero {
-    padding-top: 100px;
-  }
   h1 {
     padding: 0;
     margin: 0;
   }
-  .horizontal-mailchimp .mc-field-group,
-  .horizontal-mailchimp .clear {
+  #hero {
+    padding-top: 100px;
+  }
+  #hero h1 {
+    padding: 40px 20px;
+    margin: 0;
+  }
+  #hero p {
+    font-size: 1.1em;
+  }
+  .horizontal-mailchimp .clear,
+  .horizontal-mailchimp .mc-field-group {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -392,18 +551,25 @@ audio {
   .cred {
     padding: 8px;
   }
-  .NAME, .EMAIL {
-    min-width: 170px;
+  .EMAIL,
+  .NAME {
+    min-width: 300px;
     min-height: 34px;
     margin: 0 5px;
-    padding: 0px 5px;
+    padding: 0 5px;
+  }
+  .master-title {
+    font-size: 2.7em;
+  }
+  .products, #blogs, .container-fluid {
+    padding: 0;
+    margin: 0;
   }
 }
 
 @media only screen and (max-width: 400px) {
   #hero {
-    padding-top: 70px;
-    height: 400px;
+    padding: 70px 20px;
   }
   h1 {
     font-size: 1.4em;
@@ -418,5 +584,18 @@ audio {
   }
   .cred-img {
     width: 70px;
+  }
+  .master-title {
+    font-size: 2.2em;
+  }
+  .blog-main {
+    padding: 20px;
+  }
+  .EMAIL,
+  .NAME {
+    min-width: 220px;
+    min-height: 34px;
+    margin: 0 5px;
+    padding: 0 5px;
   }
 }

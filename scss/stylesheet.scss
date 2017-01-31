@@ -2,6 +2,15 @@
 @import "colors";
 @import "typography";
 
+
+.border {
+  border: 2px solid black;
+}
+
+.container-fluid {
+  background-color: #eee;
+}
+
 header {
     height: 60px;
     width: 100%;
@@ -38,11 +47,11 @@ nav {
 }
 
 #hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/hero-img.jpeg') center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/hero-img.jpg') center center;
     background-size: cover;
     width: 100%;
-    height: 700px;
-    padding-top: 220px;
+    height: auto;
+    padding: 160px 20px;
 }
 
 .hero-content {
@@ -53,16 +62,58 @@ nav {
     padding: 20px;
 }
 
-.signup {
-    background-color: $brand;
-    height: 90px;
-    width: 100%;
+.hero-pages {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 1300px;
+    padding: 40px 120px 25px;
+}
 
-  padding: 10px;
 
+
+.btn-float {
+    z-index:        100;
+    display:       none;
+    position:     fixed;
+    bottom:        20px;
+    right:         20px;
+
+    border-radius: 50px;
+    background: url('../images/float-call.svg') no-repeat;
+    background-size:     25px 25px;
+    background-position: 23px 16px;
 
 }
 
+.book {
+  position: relative;
+  width:         130px;
+  height:        158px;
+  top: 515px;
+  background: url('../images/book.png')
+  no-repeat;
+  background-size:     contain;
+  z-index: 100;
+
+}
+.signup {
+    background-color: $brand;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.sub-title {
+  padding-top: 4px;
+  margin: 0;
+  font-weight: 400;
+}
+
+form {
+  margin-top: -12px;
+  margin-bottom: -10px;
+}
 
 .btn-md {
   height: 34px;
@@ -70,10 +121,35 @@ nav {
   font-weight: 600;
 }
 
-.about {
+.about-container {
+  height: auto;
 
-  background-color: #ffffff;
-    padding: 60px 0 0 0;
+  background-color: rgba(99, 99, 99, 1.0);
+}
+
+.tonje-img{
+
+  background: url('/images/tonje3.jpg') center top no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 0;
+
+}
+
+.about-caption {
+  height: auto;
+  max-width: 600px;
+  background-color: rgba(99, 99, 99, 1.0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 20px 40px;
+
+ p, h2 { color: white;}
+
+ h2 {border-bottom-width: 4px;
+ border-bottom-style: solid;
+ border-color: $brand;}
 }
 
 
@@ -81,12 +157,7 @@ nav {
   background-color: #ddd;
 
   padding: 12px;
-
-
 }
-
-
-
 
 .padded {
   padding-top: 10px;
@@ -106,15 +177,20 @@ nav {
   h3 { color: $brand;}
 }
 
+
+.prod-hidden {
+  display: none;
+}
+
 .products {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   h2 { padding: 30px 0; }
   h3 { color: $brand;}
 }
 
 .image{
-    position:relative;
-    overflow:hidden;
+  position: relative;
+    overflow: hidden;
     height: 260px;
 }
 .image img{
@@ -122,7 +198,6 @@ nav {
     min-height: 260px;
     width: 100%;
 }
-
 
 
 .thumbnail {
@@ -147,24 +222,39 @@ nav {
 .prodnail {
 
   max-width: 600px;
+  min-height: 570px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.product {
+  height: 600px;
 }
 
 .dark {
   background-color: #f2f2f2;
 }
 
-// .row {
-//
-//   ul {
-//     li {
-//       display: inline-block;
-//       padding: 20px;
-//     }
-//   }
-// }
+
+
+.master-title {
+
+  font-size: 60px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-color: $brand;
+}
+
+#shrink {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/prod-img.jpg');
+    background-position: center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+}
 
 
 footer {
@@ -183,9 +273,9 @@ footer {
 
 .horizontal-mailchimp label {
      display: none;
-     height: 1px;
+     height: 0px;
      text-indent: -9999px;
-      height: 90px;
+      height: 20px;
 }
 
 
@@ -193,20 +283,16 @@ footer {
 .horizontal-mailchimp {
      background: $brand;
      margin: 0px auto;
-     padding: 1px 20px 10px;
+     padding: 1px 20px 6px;
      text-align: center;
-     border-top: 4px rgba(white, .5 ) solid;
+     border-top: 2px rgba(white, .5 ) solid;
 
-     border-bottom: 4px rgba(white, .5 ) solid;
+     border-bottom: 2px rgba(white, .5 ) solid;
 
 }
 
 
-.sub-title {
-  padding: 6px 0 0 0;
-  margin: 0 0 0 0;
-  font-weight: 400;
-}
+
 
 .NAME, .EMAIL {
     min-width: 300px;
@@ -217,7 +303,8 @@ footer {
 
 
 .blog-main {
-  padding: 100px 140px;
+  padding: 60px 200px;
+  p { color: #222;}
 }
 
 

@@ -7,8 +7,14 @@
 		"uuidString": "F526C6A3-EF70-40F2-8B80-E07EE9B4F763"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
+	"\/advisor.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/advisor.html",
+		"oF": 0
+		},
 	"\/assets\/MailChimp.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -21,6 +27,18 @@
 		"oAP": "\/blog.html",
 		"oF": 0
 		},
+	"\/book.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/book.html",
+		"oF": 0
+		},
+	"\/business.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/business.html",
+		"oF": 0
+		},
 	"\/css\/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,
@@ -30,6 +48,12 @@
 		"oAP": "\/css\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/culture.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/culture.html",
+		"oF": 0
 		},
 	"\/gitignore": {
 		"ft": 8192,
@@ -61,19 +85,35 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/advisor.jpg": {
+		"ft": 16384,
+		"iS": 44802,
+		"oA": 0,
+		"oAP": "\/images\/advisor.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/book.jpg": {
 		"ft": 16384,
 		"iS": 16833,
 		"oA": 0,
 		"oAP": "\/images\/book.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/book.png": {
 		"ft": 32768,
 		"iS": 30062,
 		"oA": 0,
 		"oAP": "\/images\/book.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/business.jpg": {
+		"ft": 16384,
+		"iS": 66881,
+		"oA": 0,
+		"oAP": "\/images\/business.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -105,7 +145,7 @@
 		"oA": 0,
 		"oAP": "\/images\/cred3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/cred4.png": {
 		"ft": 32768,
@@ -115,11 +155,27 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/hero-img.jpeg": {
+	"\/images\/culture.jpg": {
+		"ft": 16384,
+		"iS": 127372,
+		"oA": 0,
+		"oAP": "\/images\/culture.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/hero-img.jpg": {
+		"ft": 16384,
+		"iS": 282009,
+		"oA": 0,
+		"oAP": "\/images\/hero-img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/hero-img2.jpeg": {
 		"ft": 16384,
 		"iS": 114980,
 		"oA": 0,
-		"oAP": "\/images\/hero-img.jpg",
+		"oAP": "\/images\/hero-img2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -161,6 +217,22 @@
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/pexels-photo-196464.jpg": {
+		"ft": 16384,
+		"iS": 1664865,
+		"oA": 0,
+		"oAP": "\/images\/pexels-photo-196464.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/prod-img.jpg": {
+		"ft": 16384,
+		"iS": 273329,
+		"oA": 0,
+		"oAP": "\/images\/prod-img.jpg",
+		"oF": 0,
 		"opt": 0
 		},
 	"\/images\/regan.jpg": {
@@ -187,6 +259,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/tonje2.jpg": {
+		"ft": 16384,
+		"iS": 653577,
+		"oA": 0,
+		"oAP": "\/images\/tonje2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/tonje3.jpg": {
+		"ft": 16384,
+		"iS": 92548,
+		"oA": 0,
+		"oAP": "\/images\/tonje3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/uncover.jpg": {
+		"ft": 16384,
+		"iS": 61033,
+		"oA": 0,
+		"oAP": "\/images\/uncover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Untitled-1.jpg": {
 		"ft": 16384,
 		"iS": 188607,
@@ -210,180 +306,6 @@
 		"oAP": "\/images\/workshops.jpg",
 		"oF": 0,
 		"opt": 1
-		},
-	"\/images2\/1on1.jpg": {
-		"ft": 16384,
-		"iS": 88216,
-		"oA": 0,
-		"oAP": "\/images2\/1on1.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/33.jpg": {
-		"ft": 16384,
-		"iS": 17865,
-		"oA": 0,
-		"oAP": "\/images2\/33.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/About-img.jpg": {
-		"ft": 16384,
-		"iS": 3803133,
-		"oA": 0,
-		"oAP": "\/images2\/About-img.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/book.jpg": {
-		"ft": 16384,
-		"iS": 78828,
-		"oA": 0,
-		"oAP": "\/images2\/book.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/book.png": {
-		"ft": 32768,
-		"iS": 167214,
-		"oA": 0,
-		"oAP": "\/images2\/book.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/cred.psd": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images2\/cred.psd",
-		"oF": 0
-		},
-	"\/images2\/cred1.png": {
-		"ft": 32768,
-		"iS": 25525,
-		"oA": 0,
-		"oAP": "\/images2\/cred1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/cred2.png": {
-		"ft": 32768,
-		"iS": 19566,
-		"oA": 0,
-		"oAP": "\/images2\/cred2.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/cred3.png": {
-		"ft": 32768,
-		"iS": 19236,
-		"oA": 0,
-		"oAP": "\/images2\/cred3.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/cred4.png": {
-		"ft": 32768,
-		"iS": 17917,
-		"oA": 0,
-		"oAP": "\/images2\/cred4.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/hero-img.jpeg": {
-		"ft": 16384,
-		"iS": 248114,
-		"oA": 0,
-		"oAP": "\/images2\/hero-img.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/julie.jpg": {
-		"ft": 16384,
-		"iS": 24533,
-		"oA": 0,
-		"oAP": "\/images2\/julie.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/lindsey.jpg": {
-		"ft": 16384,
-		"iS": 25590,
-		"oA": 0,
-		"oAP": "\/images2\/lindsey.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/logo-large.jpg": {
-		"ft": 16384,
-		"iS": 37478,
-		"oA": 0,
-		"oAP": "\/images2\/logo-large.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/logo-large.png": {
-		"ft": 32768,
-		"iS": 421719,
-		"oA": 0,
-		"oAP": "\/images2\/logo-large.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/logo.png": {
-		"ft": 32768,
-		"iS": 18612,
-		"oA": 0,
-		"oAP": "\/images2\/logo.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/regan.jpg": {
-		"ft": 16384,
-		"iS": 55558,
-		"oA": 0,
-		"oAP": "\/images2\/regan.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/regan.png": {
-		"ft": 32768,
-		"iS": 1053631,
-		"oA": 0,
-		"oAP": "\/images2\/regan.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/tonje.jpg": {
-		"ft": 16384,
-		"iS": 433834,
-		"oA": 0,
-		"oAP": "\/images2\/tonje.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images2\/Untitled-1.jpg": {
-		"ft": 16384,
-		"iS": 161560,
-		"oA": 0,
-		"oAP": "\/images2\/Untitled-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/webinar.jpg": {
-		"ft": 16384,
-		"iS": 40228,
-		"oA": 0,
-		"oAP": "\/images2\/webinar.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images2\/workshops.jpg": {
-		"ft": 16384,
-		"iS": 26536,
-		"oA": 0,
-		"oAP": "\/images2\/workshops.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -451,6 +373,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/mailchimp-api-master\/src\/Webhook.php",
+		"oF": 0
+		},
+	"\/products.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/products.html",
 		"oF": 0
 		},
 	"\/regan.html": {
@@ -530,24 +458,11 @@
 		"oAP": "\/signup.html",
 		"oF": 0
 		},
-	"\/site.zip": {
+	"\/uncover.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/site.zip",
+		"oAP": "\/uncover.html",
 		"oF": 0
-		},
-	"\/stylesheet.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/stylesheet.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [
@@ -812,7 +727,7 @@
 	"bowerSaveDependencies": 1,
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
-	"browserRefreshDelay": 0,
+	"browserRefreshDelay": 2,
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1203,6 +1118,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1745,6 +1664,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
@@ -2467,7 +2390,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
-	"previewPathAddition": "lindsey.html",
+	"previewPathAddition": "\/culture.html",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
